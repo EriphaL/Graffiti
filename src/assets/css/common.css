@@ -1,0 +1,34 @@
+.flex{
+  display: flex;
+}
+
+.j-center{
+  justify-content: center;
+}
+
+.y-center{
+  align-items:center;
+}
+
+.flex-col{
+  /* 盒模型纵向 */
+  flex-direction: column;
+}
+
+.a-center{
+  align-content: center;
+}
+
+.j-bt{
+  justify-content: space-between;
+}
+
+.flex-1{
+  /* 自适应 */
+  flex:1;
+}
+
+.no-select{
+  /* 不要被选中 */
+  user-select: none;
+}
